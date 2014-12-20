@@ -1,0 +1,43 @@
+﻿private DataTable GetDataBySp([TAG3])
+{
+	try
+    {
+     
+		//Connection String
+		string consqlserver = "Data Source=.;Initial Catalog=PhoneMS;Integrated Security=True;";
+		//New SQL Server object
+		SqlConnection conn = new SqlConnection(consqlserver);
+		//open connection
+		conn.Open();
+		//New SqlCommand                 
+		SqlCommand cmd = new SqlCommand();
+		cmd.Connection = (System.Data.SqlClient.SqlConnection)conn;
+		//Setting Parms   
+		[TAG1]
+		#region SQL Text 
+		cmd.CommandType = CommandType.Text;
+		cmd.CommandText =@"[TAG2]";
+		#endregion
+		//Get ths Data from DB
+		 DbDataAdapter adpt = new System.Data.SqlClient.SqlDataAdapter();
+		adpt.SelectCommand = cmd;
+		DataSet ds = new DataSet();
+             
+
+		adpt.Fill(ds);                                  
+		DataTable dt = ds.Tables[0];
+		conn.Close();                                   
+        conn.Dispose();                                 
+        adpt.Dispose();
+		return dt;							//return DataTable
+     
+    }
+    catch (Exception msg)
+    {
+        MessageBox.Show(msg.Message);                  //error exception
+    }
+    finally
+    {
+                                    
+    }
+}

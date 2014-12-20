@@ -1,0 +1,8 @@
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\bin\Release\SP2FUN.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\bin\Release\SP2FUN.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\bin\Release\SP2FUN.pdb
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\obj\x86\Release\SP2FUN.mainFrmSP2Fun.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\obj\x86\Release\SP2FUN.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\obj\x86\Release\SP2FUN.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\obj\x86\Release\SP2FUN.exe
+C:\Users\Administrator\Documents\Visual Studio 2010\Projects\SP2FUN\SP2FUN\obj\x86\Release\SP2FUN.pdb
